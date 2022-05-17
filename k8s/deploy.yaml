@@ -26,7 +26,7 @@ spec:
         app: ctse-it19176802
     spec:
       containers:
-      - image: shavindocker/ctse-assignment:3bdf0c5db1f5632c86244eb08a78050e8175f3eb
+      - image: shavindocker/ctse-assignment:{{tag}}
         imagePullPolicy: Always
         name: ctse-assignment
         resources: {}
