@@ -1,0 +1,18 @@
+apiVersion: v1
+clusters:
+- cluster:
+    server: https://167772175-6443-ollie09.environments.katacoda.com/
+    insecure-skip-tls-verify: true
+name: katakoda-cluster
+contexts:
+- context:
+    cluster: katakoda-cluster
+    user: katakoda-cluster
+  name: katakoda-cluster
+current-context: katakoda-cluster
+kind: Config
+preferences: {}
+users:
+- name: katakoda-cluster
+  user:
+    token: eyJhbGciOiJSUzI1NiIsImtpZCI6ImNiRVI3TlRrVWtIMFpuX0IzVFNJWGh1R25fNFB1RUdEeGo4cHlZeVM2N2sifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImRlcGxveS1ib3QtYWNjb3VudC10b2tlbi1sNGI0biIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJkZXBsb3ktYm90LWFjY291bnQiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiJlY2MxYzQxZS00MmI5LTQ4OTItOGJiZi1mNzA3MWRhNWExMzYiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6ZGVmYXVsdDpkZXBsb3ktYm90LWFjY291bnQifQ.2nE7ub16DqLJV1mv3vyO87W9BhZojsY_zuyw2Br5-oQ60jA9haJZIkdF-1hqkRb--Q1n_2x7ciBuw-QbmlmMFXqzU7BSzB0xDBzgNpQX47ZZGRJdalmqM33LVTY0cBS43WsjDYFmse4qjOxgIWGXBMvYd-s9Bxm4UAY4-ckmHdXy4Q07EbBPyZwo9zqdpaCn5P9tZzbWUc2uDOGAEqcn_KvxvlKs7OabFBVEpaqW_TQgJHumoLo84DzgGDELwJL3AcxoMsLP409HiFJMHuABA3nQApRzxjjxWNoACPad5Nf_Nn3vWGsH1tHL9xBG_Qv5Qfk9DnDYaip9PlXW-6BLhQ 
